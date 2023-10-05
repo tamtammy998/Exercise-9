@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centered Box</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .box {
+      width: 250px;
+      height: 250px;
+      border: 2px solid black;
+      padding: 20px;
+      background-color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .box img {
+      border-radius: 50%;
+      max-width: 95%;
+      max-height: 80%;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="https://images.pexels.com/photos/14440674/pexels-photo-14440674.jpeg" alt="Sample Image">
+    <h6>I am a Cat!</h6>
+  </div>
+</body>
+</html>
